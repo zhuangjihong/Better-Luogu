@@ -1,0 +1,28 @@
+.preview {
+    background-color: #a3dd82;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.07);
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    color: #fff;
+    padding: 9px 18px;
+    margin-top: 20px;
+}
+.preview::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 10px solid #fff;
+    display: inline-block;
+    margin-right: 5px;
+}
+.preview:hover {
+    background-color: #98d973;
+}
+body{
+    width: 300px;
+    height: 300px;
+}
